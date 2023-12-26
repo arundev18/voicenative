@@ -1,8 +1,8 @@
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
-BUNDLE_DISPLAY_NAME = SpeechToText2
-BUNDLE_IDENTIFIER = myapp.voicenative
+BUNDLE_DISPLAY_NAME = NativeTemplate
+BUNDLE_IDENTIFIER = com.mendix.native.template
 
-RUNTIME_URL = https:\/\/voicenative-sandbox.mxapps.io/
+RUNTIME_URL = http:\/\/localhost:8080
 
-PRODUCT_NAME = VoiceNative
+PRODUCT_NAME = nativeTemplate

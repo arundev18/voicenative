@@ -7,6 +7,5 @@
     "pushNotifications": false,
     "appCenterOTA": false,
     "maps": false,
-    "mapsIos": false,
-    "nativeOTA": false
+    "mapsIos": false
 }
