@@ -1,14 +1,14 @@
 {
     "configVersion": 2,
-    "appIdentifier": "myapp.voicenative",
-    "appName": "SpeechToText2",
+    "appIdentifier": "com.dubaichamber5.voicenative",
+    "appName": "SpeechToText5",
     "bundleName": {
-        "main": "VoiceNative",
-        "dev": "VoiceNativeDev"
+        "main": "VoiceNative5",
+        "dev": "VoiceNative5Dev"
     },
     "deviceTarget": {
         "phone": true,
-        "tablet": true
+        "tablet": false
     },
     "orientation": {
         "portrait": true,
@@ -18,18 +18,6 @@
         {
             "title": "Camera",
             "name": "android.permission.CAMERA",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Fine Location",
-            "name": "android.permission.ACCESS_FINE_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Coarse Location",
-            "name": "android.permission.ACCESS_COARSE_LOCATION",
             "platform": "android",
             "required": false
         },
@@ -91,6 +79,18 @@
             "purpose": "To use that feature, the app needs to access your speech recognition.",
             "platform": "ios",
             "required": false
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
         }
     ],
     "capabilities": {
@@ -134,8 +134,5 @@
         "nativeOTA": {
             "enabled": false
         }
-    },
-    "appVersion": "1.4.5",
-    "buildNumber": 41,
-    "runtimeUrl": "https://voicenative-sandbox.mxapps.io/"
+    }
 }
